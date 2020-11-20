@@ -8,6 +8,7 @@
     "crypto-js": "^4.0.0",
     "date-fns": "^2.16.1",
     "dotenv": "^8.2.0",
+    "localforage": "^1.9.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-icons": "^3.11.0",
