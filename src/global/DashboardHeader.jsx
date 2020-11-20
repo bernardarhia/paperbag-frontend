@@ -3,7 +3,7 @@ import Input from "./Input";
 import { FiBell } from "react-icons/fi";
 import avatar from "../assets/avatar.png";
 import Dropdown from "./Dropdown";
-import {decryptData} from '../functions/test';
+import {decryptData} from '../functions/cipher';
 import localForage from 'localforage';
 import User from '../Api/requests';
 

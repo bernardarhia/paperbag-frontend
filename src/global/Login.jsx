@@ -6,7 +6,7 @@ import Header from "./Header";
 import { isEmail } from "../functions/isEmail";
 import User from "../Api/requests";
 import ErrorText from "./ErrorText";
-import {encryptData} from '../functions/test';
+import {encryptData} from '../functions/cipher';
 import Redirecting from "./Redirecting";
 
 const Login = () => {

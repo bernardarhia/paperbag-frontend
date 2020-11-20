@@ -6,7 +6,7 @@
 .pnp.js
 /.scss
 .scss
-
+.env
 # testing
 /coverage
 

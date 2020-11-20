@@ -8,7 +8,7 @@ import './users/styles/style.css';
 import {UserContext} from '../src/context/UserContext'
 import Profile from './global/Profile';
 import localForage from 'localforage';
-import {decryptData} from './functions/test';
+import {decryptData} from './functions/cipher';
 import User from "./Api/requests";
 import Loader from './global/Loader';
 

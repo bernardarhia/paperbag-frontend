@@ -6,7 +6,7 @@ import avatar from "../assets/avatar.png";
 import Input from "./Input";
 import Button from "../global/Button";
 import localForage from "localforage";
-import { decryptData } from "../functions/test";
+import { decryptData } from "../functions/cipher";
 import User from "../Api/requests";
 const Profile = () => {
   const [user, setUser] = useState(null);

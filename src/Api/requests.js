@@ -1,6 +1,6 @@
 import Axios from "axios";
 
-Axios.defaults.baseURL = "http://localhost:5000/api/users/";
+Axios.defaults.baseURL =process.env.REACT_APP_ROOT_URL;
 export default {
   login: async (data) => {
     return await Axios.post("login", data);
