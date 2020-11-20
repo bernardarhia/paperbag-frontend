@@ -1,0 +1,35 @@
+.btn{
+    border: none;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-top: .5rem;
+    background: $button_color;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all .3s ease;
+}
+.btn:hover{
+background: #1937b1e7;
+box-shadow: 0 20px 30px -11px rgba(31,35,65,0.37);
+transform: translate(0px, -4px);
+}
+.button__control{
+    width: 100%;
+}
+.btn__small{
+    padding: .6rem 2.4rem;
+}
+
+.btn__medium{
+    padding: 1rem 3rem;
+}
+.btn__large{
+    padding: 1rem 3.6rem;
+}
+.btn__mobile{
+    width: 100%;
+    padding: 14px 25px;
+}
+

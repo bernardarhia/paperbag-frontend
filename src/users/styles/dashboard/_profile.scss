@@ -1,0 +1,94 @@
+.profile__section{
+    width: 70%;
+    margin: 0 auto;
+
+    .user__avatar{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.4rem;
+        .avatar{
+            margin-right: 1.4rem;
+            width:80px;
+            img{
+                width: 100%;
+                transform: rotate(180deg);
+                border-radius: 50%;
+            }
+        }
+        .details{
+            .name{
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: $large_text_color;
+            }
+            .location{
+                font-size: 13px;
+                color: $small_text_color;
+            }
+        }
+    }
+
+    .user__info-update{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 1rem;
+
+        .name__input{
+            margin-bottom: 1.5rem;
+            label{
+                display: block;
+                font-size: 13px;
+                font-weight: 500;
+                color: $small_text_color;
+                padding-bottom: .6rem;
+            }
+        }
+       
+    }
+    .submit{
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        @extend %flex-c;
+    }
+}
+
+
+@media (max-width:760px){
+    .profile__section{
+        width: 90%;    
+        .user__avatar{
+            .avatar{
+                width:60px;
+            }
+            .details{
+                .name{
+                    font-size: 1rem;
+                }
+            }
+        }
+    
+        .user__info-update{
+            display: block;
+         
+    
+            .name__input{
+                margin-bottom: 1.5rem;
+                label{
+                    display: block;
+                    font-size: 13px;
+                    font-weight: 500;
+                    color: $small_text_color;
+                    padding-bottom: .6rem;
+                }
+            }
+           
+        }
+        .submit{
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            @extend %flex-c;
+        }
+    }
+}

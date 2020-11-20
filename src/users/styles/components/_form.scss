@@ -1,0 +1,71 @@
+.login, .signup{
+    width: 60%;
+    margin: 0 auto;
+    padding: 1.4rem;
+    height: 100% auto;
+    .heading{
+        padding: 2rem 0;
+        font-weight: 600;
+        text-align: center;
+        p{
+            color: $large_text_color;
+            font-size: 2.12rem;
+        }
+    }
+    .para{
+        text-align: center;
+        p{
+            color: $small_text_color;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    }
+    form{
+        @extend %flex-c;
+        flex-direction: column;
+        width: 300px;
+        margin: 0 auto;
+
+        .input__control{
+            width: 100%;
+            .label{
+                display: block;
+                font-size: 14px;
+                line-height: 1.8;
+                padding: .3rem 0;
+                font-weight: 500;
+                color: #36434d;
+            }
+        }
+
+        .forgot__password{
+            margin: 2rem 0;
+            a{
+                display: block;
+                color: #a09ea2;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width:600px){
+    .login, .signup{
+        width: 95%;      
+        .heading{           
+            p{
+                font-size: 1.9rem;
+            }
+        }
+        .para{
+            p{
+                font-size: 16px;
+            }
+        }
+        form{
+            width: 100%;
+        }
+    }
+    
+}

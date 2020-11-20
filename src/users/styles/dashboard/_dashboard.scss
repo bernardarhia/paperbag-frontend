@@ -1,0 +1,15 @@
+.dashboard{
+    min-height: 100vh;
+   height: 100vh;
+  background:$light_bg;
+   &__wrapper{
+       display: grid;
+       grid-template-columns: 20% auto;
+       height: 100%;
+       .dashboard__content{
+           height: 100%;
+           background: #fff;
+       }
+       
+   }
+}

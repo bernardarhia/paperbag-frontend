@@ -1,0 +1,19 @@
+.dropdown{
+    background: #fff;
+    padding: 1rem 1.5rem;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    transform: translate(0, -20%);
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.1));
+    &::before{
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        top: -8%;
+        left: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);
+    }
+}
